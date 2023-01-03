@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: 'Nerko One', cursive;
+  font-size: 35px;
+}
+
+body, h1, button, p {
+  margin: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding: 40px 0;
+  background: rgb(213,213,213);
+  background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #app {
+    margin: 10px auto 40px;
+  }
+}
+
+.interactive {
+  color: azure;
+  border: 1px solid azure;
+  background-color: black;
+  border-radius: 10px;
+  transition: background-color 100ms ease-in-out,
+              border-color 100ms ease-in-out,
+              color 100ms 100ms ease-in-out;
+  user-select: none;  
+  cursor: pointer;
+}
+
+.interactive--hovered:hover,
+.interactive--focused:focus {
+  color: black;
+  border: 1px solid black;
+  background-color: azure;
+}
+
+.interactive--hovered:disabled,
+.interactive--focused:disabled:hover {
+  color: grey;
+  background-color: darkgrey;
+  border-color: inherit;
+  cursor: not-allowed;
+}

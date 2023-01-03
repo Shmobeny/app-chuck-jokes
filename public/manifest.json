@@ -1,0 +1,117 @@
+{
+  "short_name": "Chuck's Jokes",
+  "name": "Jokes and Facts about Chuck Norris",
+  "description": "Pile of cringy jokes about Chuck Norris with user friendly interface!",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "/../assets/img/screenshots/Screenshot_1.png",
+      "type": "image/png",
+      "sizes": "1091x613",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/../assets/img/screenshots/Screenshot_2.png",
+      "type": "image/jpg",
+      "sizes": "1092x614",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/../assets/img/screenshots/Screenshot_3.png",
+      "type": "image/jpg",
+      "sizes": "1095x615",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/../assets/img/icons/maskable_icon_x48.png",
+      "type": "image/svg+xml",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x48.png",
+      "type": "image/svg+xml",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/../assets/img/icons/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
